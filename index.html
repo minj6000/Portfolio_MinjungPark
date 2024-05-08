@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minjung Park's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="image-viewer">
+        <button id="prev"><img src = "Icons/Arrow_L.png"></button>
+        <img src="Pages/cover_portfolio.png" id="main-image">
+        <button id="next"><img src = "Icons/Arrow_R.png"></button>
+    </div>
+    <div id="projectbuttons">
+        <button onclick="changeImage('cover') "><img src = "Icons/Cover.png"></button>
+        <button onclick="changeImage('project1')"><img src = "Icons/AmbiBand.png"></button>
+        <button onclick="changeImage('project2')"><img src = "Icons/Talsoom.png"></button>
+        <button onclick="changeImage('project3')"><img src = "Icons/Artronaut.png"></button>
+        <button onclick="changeImage('project4')"><img src = "Icons/6Sentences.png"></button>
+        <button onclick="changeImage('project5')"><img src = "Icons/MMP.png"></button>
+        <button onclick="changeImage('project6')"><img src = "Icons/WYWH.png"></button>
+        <button onclick="changeImage('overview')"><img src = "Icons/LastPage.png"></button>
+    </div>
+    <button id="download" onclick="downloadPortfolio()"><img src= "Icons/Download.png"></button>
+    <button id="toggle-zoom">
+        <img id="zoom-icon" src="Icons/zoomin.png" alt="Toggle Zoom">
+    </button>
+    <div id="zoom-box"></div>
+    <script src="script.js"></script>
+</body>
+</html>
