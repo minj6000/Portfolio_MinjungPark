@@ -1,12 +1,12 @@
 const projects = {
-    cover: ['Pages/cover_portfolio.png', 'Pages/Intro.png'],
-    project1: ['Pages/Ambiband_1.png', 'Pages/Ambiband_2.png', 'Pages/Ambiband_3.png'],
-    project2: ['Pages/Talsoom_1.png', 'Pages/Talsoom_2.png', 'Pages/Talsoom_3.png'],
-    project3: ['Pages/Artronaut_1.png', 'Pages/Artronaut_2.png', 'Pages/Artronaut_3.png'],
-    project4: ['Pages/6Sentences_1.png', 'Pages/6Sentences_2.png', 'Pages/6Sentences_3.png'],
-    project5: ['Pages/MMP_1.png', 'Pages/MMP_2.png', 'Pages/MMP_3.png'],
-    project6: ['Pages/WYWH_1.png', 'Pages/WYWH_2.png', 'Pages/WYWH_3.png'],    
-    overview: ['Pages/Lastpage.png']
+    cover: ['Pages/cover_portfolio.jpg', 'Pages/Intro.jpg'],
+    project1: ['Pages/Ambiband_1.jpg', 'Pages/Ambiband_2.jpg', 'Pages/Ambiband_3.jpg'],
+    project2: ['Pages/Talsoom_1.jpg', 'Pages/Talsoom_2.jpg', 'Pages/Talsoom_3.jpg'],
+    project3: ['Pages/Artronaut_1.jpg', 'Pages/Artronaut_2.jpg', 'Pages/Artronaut_3.jpg'],
+    project4: ['Pages/6Sentences_1.jpg', 'Pages/6Sentences_2.jpg', 'Pages/6Sentences_3.jpg'],
+    project5: ['Pages/MMP_1.jpg', 'Pages/MMP_2.jpg', 'Pages/MMP_3.jpg'],
+    project6: ['Pages/WYWH_1.jpg', 'Pages/WYWH_2.jpg', 'Pages/WYWH_3.jpg'],    
+    overview: ['Pages/Lastpage.jpg']
 };
 
 let currentProject = 'cover'; 
