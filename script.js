@@ -9,6 +9,14 @@ const projects = {
     overview: ['Pages/Lastpage.jpg']
 };
 
+
+function preloadImages() {
+    Object.values(projects).flat().forEach(src => {
+        const img = new Image();
+        img.src = src;
+    });
+}
+
 let currentProject = 'cover'; 
 let currentIndex = 0;
 
@@ -139,3 +147,12 @@ document.getElementById('main-image').addEventListener('mousemove', function(eve
 document.getElementById('main-image').addEventListener('mouseleave', function() {
     document.getElementById('zoom-box').style.display = 'none'; 
 });
+
+function debounce(func, wait = 250) {
+    let timeout;
+    return function (...args) {
+        const context = this;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+}
