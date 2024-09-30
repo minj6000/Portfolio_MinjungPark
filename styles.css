@@ -90,14 +90,14 @@ body, button {
 
 #download img{
     width:35px;
-    background-color: black;
+    background-color: white;
     padding: 5px;
     border-radius: 15px;
 }
 
 img {
-    max-width: 88%; 
-    max-height: 88%; 
+    max-width: 70%; 
+    max-height: 70%; 
     object-fit: contain; 
     margin: auto; 
     display: block; 
