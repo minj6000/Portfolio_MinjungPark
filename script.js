@@ -89,7 +89,7 @@ document.getElementById('download').addEventListener('click', function() {
     const url = 'Download/Portfolio_MinjungPark.pdf'; 
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'Portfolio_MinjungPark.pdf';
+    a.target = '_blank';  
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
